@@ -48,18 +48,6 @@ def DBAscraper():
 		print(url + " Page {} Done".format(i))
 		
 def deleteDuplicate():
-	# seen = set()
-	# dupeCount = 0
-	# for line in fileinput.FileInput('DBA.csv', inplace=1):
-		# linesplit = line.split (",")[2]
-		# if linesplit in seen:
-			# dupeCount+=1
-			# continue # skip duplicated line
-		# seen.add(linesplit)
-		# print(line, end='')
-	# print(seen)
-	# print("Removed {} Duplicates".format(dupeCount))
-	
 	seen = set()
 	dupeCount = 0
 	counter = 0
