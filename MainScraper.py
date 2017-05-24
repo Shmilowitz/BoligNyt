@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 def DBAscraper():
 	print("\n       ============================ \n       |        DBA Scraper       |\n       |   by David Shmilowitz    |\n       ============================ \n")
 	for i in range(1,100):
-		url = "http://www.dba.dk/boliger/ejerbolig/side={side}/".format(i)
+		url = "http://www.dba.dk/boliger/ejerbolig/side-{}/".format(i)
 		r = requests.get(url)
 		r.raise_for_status()
 		soup = bs4.BeautifulSoup(r.text)
