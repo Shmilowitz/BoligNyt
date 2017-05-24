@@ -1,5 +1,6 @@
 from django.apps import AppConfig
 
 
-class bolignyt(AppConfig):
+class BoligNytConfig(AppConfig):
     name = 'bolignyt'
+
