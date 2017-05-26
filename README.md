@@ -9,7 +9,7 @@ Python Exam Project
 
 
 ## Synopsis
-Web service / app baseret på crawlet bolig data fra DBA og Boliga, angive postnummer/område også recommende nogle boliger i området til den. Informere brugeren så snart der blev annonceret ny lejlighed med passende søgekriterier. Web scraping og konstruktion af en lille web app med Django og Flask
+Webapp baseret på crawlet bolig data fra DBA. Med hjælp fra Django kan brugeren angive postnummer/pris også foreslår app'en nogle boliger i området. Webscraperen er lavet med Python og konstruktion af webapp med Django.
 
 
 
