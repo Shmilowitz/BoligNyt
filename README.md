@@ -35,12 +35,12 @@ fileinput
 
 
 ## How to 
-The scraper can be run as a standalone component.  
+# The scraper can be run as a standalone component.  
 1. Download & navigate to Mainscraper.py's location in terminal
 2. Type`python MainScraper.py` in terminal and scraper will start and print progress.
 3. A file called "DBA.csv" will be created if it's the first time scraper is run. Otherwise new data will be appended to existing DBA.csv file.  
 
-Django  
+# Django  
 1. Download the project and navigate to the folder within your terminal.
 2. Type 'python manage.py runserver' in your terminal.
 3. Server will start at: '127.0.0.1:8000'. You can type in the local-ip within your browser and see the results.
